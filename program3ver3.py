@@ -4,7 +4,9 @@ def getAmountPrice():
     _price = int(input("Enter the price of apple: "))
     return int(_amount/_price)
 
-def 
+def getChange():
+    _change = enterAmountPrice*_price
+    return int(_amount%_change)
 
 #Create a program which you will enter the amount of money you have, it will also ask for the price of an apple.
 enterAmountPrice = getAmountPrice()
