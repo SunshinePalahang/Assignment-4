@@ -8,9 +8,9 @@ def getChange():
     _change = enterAmountPrice*_price
     return int(_amount%_change)
 
-#Create a program which you will enter the amount of money you have, it will also ask for the price of an apple.
+def display(enterAmountPrice,changeComputation):
+    print(f"You can buy {enterAmountPrice} apples and your change is {changeComputation} pesos.")
+
 enterAmountPrice = getAmountPrice()
-#Display the maximum number of apples that you can buy and the remaining money that you will have.
 changeComputation = getChange()
-#Display the output in the following format.
-#You can buy ___ apples and your change is ___ pesos.
+display(enterAmountPrice,changeComputation)
